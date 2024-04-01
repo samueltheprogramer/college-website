@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Courses() {
   return (
-    <div className='bg-green-400 border w-full h-auto'>
+    <div className='bg-green-400 border w-full h-auto p-2'>
         <div className='flex-center'>
         <h1 className='bg-white text-xl rounded-xl shadow-lg'>Cources offered</h1>
         </div>

@@ -5,8 +5,8 @@ import React from 'react'
 export default function Footer() {
   return (
     <div className='bg-gray-100  h-[auto] w-full'>
-    <div className=' grid lg:grid-cols-4  place-content-center place-items-center gap-4  '>
-      <div cla >
+    <div className=' grid lg:grid-cols-4 grid-cols-2  place-content-center place-items-center gap-4  '>
+      <div  >
       <Image src="/SmkcLogo.png" height={ 50} width={53} alt='Smkc logo' /> 
       <h1 className='text-[10px]'>Sree Muthukumarasamy college</h1>
       <h2>since 1990</h2>
@@ -33,7 +33,7 @@ export default function Footer() {
       </div> 
     </div>
     <div className='w-full p-5 border'>
-      <h1 className='border-x-4 w-40 '>Crafted by Samuel</h1>
+      <h1 className='border-x-4 w-52'>Crafted by Samuel -BCA</h1>
     </div>
     </div>
   )
